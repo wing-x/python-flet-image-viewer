@@ -1,0 +1,20 @@
+・Web版は固定画像で作る　⇒OK
+・拡大表示を作る　⇒OK
+・詳細（ファイル名、作成日時、更新日時、メタ情報など）を表示する所を作る ⇒OK
+・詳細ページに左右で次の画像を表示する所
+・スマホ表示でのレイアウト崩れを修正する
+・ホバーでファイル名を表示する
+・メタデータの表示機能を追加する（優先度低）
+・お気に入り、ソート機能を実装する
+
+この辺りまでは実装する。
+
+
+
+flet publish main.py --assets assets --route-url-strategy hash --base-url "https://wing-x.github.io/python-flet-image-viewer-web-sample/"
+
+https://wing-x.github.io/python-flet-image-viewer-web-sample/
+
+python -m http.server --directory dist
+
+
